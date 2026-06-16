@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Krkr Fgi Editor</string>
+    <string name="layer_group">Layer Group</string>
+    <string name="available_layers">Available Layers</string>
+    <string name="selected_layers">Selected Layers</string>
+    <string name="long_press_to_remove">Long press to remove</string>
+    <string name="preview">Preview</string>
+    <string name="save">Save</string>
+    <string name="batch_merge">Batch Merge</string>
+    <string name="batch_merge_coming_soon">Batch merge feature coming soon</string>
+    <string name="action_open">Open File</string>
+    <string name="action_auto_sort">Auto Sort</string>
+</resources>
