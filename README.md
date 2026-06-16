@@ -11,7 +11,7 @@
 
 Android port of the Kirikiri Figure Image Editor (吉里吉里立绘合成工具) - A tool for merging character sprite layers for visual novels.
 
-**Download**: [Latest APK](https://pan.axooo.cn/app-debug.apk) (5.4 MB)
+**Download**: [Latest Release](https://github.com/yinghuajimew/KrkrFgiEditorAndroid/releases/latest)
 
 ### ✨ Features
 
@@ -86,12 +86,12 @@ APK location: `app/build/outputs/apk/debug/app-debug.apk`
 
 ### 🙏 Credits
 
-- Original Windows version by the Kirikiri community
+- Original Windows version by [CjangCjengh](https://github.com/CjangCjengh/krkrFgiEditor)
 - Android port created with Claude Code
 
 ### 📄 License
 
-MIT License
+See the original project for license information.
 
 ---
 
@@ -102,7 +102,7 @@ MIT License
 
 吉里吉里立绘合成工具的 Android 移植版 - 用于视觉小说角色立绘图层合成的工具。
 
-**下载**: [最新 APK](https://pan.axooo.cn/app-debug.apk) (5.4 MB)
+**下载**: [最新版本](https://github.com/yinghuajimew/KrkrFgiEditorAndroid/releases/latest)
 
 ### ✨ 功能特性
 
@@ -177,9 +177,10 @@ APK 位置：`app/build/outputs/apk/debug/app-debug.apk`
 
 ### 🙏 致谢
 
-- 原 Windows 版本由吉里吉里社区开发
+- 原 Windows 版本由 [CjangCjengh](https://github.com/CjangCjengh/krkrFgiEditor) 开发
 - Android 移植版使用 Claude Code 开发
 
 ### 📄 许可证
 
-MIT License
+请查看原项目的许可证信息
+

@@ -124,7 +124,7 @@ docs/
 - 🔗 **Run ID**: 27638508784
 
 #### APK 部署
-- **云盘**: https://pan.axooo.cn/app-debug.apk
+- **云盘**: https://github.com/yinghuajimew/KrkrFgiEditorAndroid/releases/latest
 - **上传时间**: 2026-06-17 02:19 UTC
 - **上传速度**: 605.77 KB/s
 
@@ -217,7 +217,7 @@ Android 系统语言
 
 - **GitHub 仓库**: https://github.com/yinghuajimew/KrkrFgiEditorAndroid
 - **Actions 构建**: https://github.com/yinghuajimew/KrkrFgiEditorAndroid/actions/runs/27638508784
-- **APK 下载**: https://pan.axooo.cn/app-debug.apk
+- **APK 下载**: https://github.com/yinghuajimew/KrkrFgiEditorAndroid/releases/latest
 - **技术文档**: docs/TECHNICAL_DETAILS.md
 - **开发历史**: docs/DEVELOPMENT_HISTORY.md
 

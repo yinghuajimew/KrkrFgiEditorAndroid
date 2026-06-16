@@ -133,7 +133,7 @@ for (Layer layer : layers) {
 - 📅 **构建时间**: 2026-06-17 01:58 UTC
 
 ### APK 下载
-- **云盘地址**: https://pan.axooo.cn/app-debug.apk
+- **云盘地址**: https://github.com/yinghuajimew/KrkrFgiEditorAndroid/releases/latest
 - **文件大小**: 5.4 MB
 - **上传时间**: 2026-06-17 02:00 UTC
 - **传输速度**: 2.66 MB/s
@@ -215,7 +215,7 @@ for (Layer layer : layers) {
 
 - **GitHub 仓库**: https://github.com/yinghuajimew/KrkrFgiEditorAndroid
 - **GitHub Actions**: https://github.com/yinghuajimew/KrkrFgiEditorAndroid/actions/runs/27637423685
-- **APK 下载**: https://pan.axooo.cn/app-debug.apk
+- **APK 下载**: https://github.com/yinghuajimew/KrkrFgiEditorAndroid/releases/latest
 - **原 C# 项目**: /root/krkrFgiEditor-main
 
 ## 💡 后续改进建议
