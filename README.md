@@ -8,7 +8,7 @@ Android port of the Kirikiri Figure Image Editor (吉里吉里立绘合成工具
 - **Automatic Encoding Detection**: Supports Shift-JIS, UTF-8, and Unicode
 - **Smart Layer Sorting**: Automatically sort layers by alpha channel sum
 - **Real-time Preview**: See the result before saving
-- **Batch Composition**: (Coming soon) Generate all layer combinations
+- **Batch Composition**: ✅ Generate all layer combinations automatically
 
 ## Supported Formats
 
@@ -36,12 +36,25 @@ The APK will be generated at: `app/build/outputs/apk/debug/app-debug.apk`
 
 ## Usage
 
+### Single Composition
 1. Open the app
 2. Tap the "Open File" button in the toolbar
 3. Select a coordinate file (.txt or .json)
 4. Select layers from the available list
 5. View the preview
 6. Tap the save button to export the merged image
+
+### Batch Composition
+1. Open the app and load a coordinate file
+2. Tap the "Batch Merge" button
+3. Configure options:
+   - Skip Empty Layers: Exclude layers with no image
+   - Auto Sort: Sort layers by alpha channel sum
+4. View the total number of combinations
+5. Tap "Start Batch Merge" to begin processing
+6. Wait for completion (progress bar shows current status)
+7. View results with thumbnails
+8. Find saved images in `Pictures/KrkrFgiEditor/Batch/`
 
 ## Technical Details
 
