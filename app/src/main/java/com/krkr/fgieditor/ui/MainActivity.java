@@ -29,6 +29,7 @@ import com.krkr.fgieditor.R;
 import com.krkr.fgieditor.adapter.LayerAdapter;
 import com.krkr.fgieditor.model.Layer;
 import com.krkr.fgieditor.model.LayerGroup;
+import com.krkr.fgieditor.util.BatchDataHolder;
 import com.krkr.fgieditor.util.CoordinateFileParser;
 import com.krkr.fgieditor.util.ImageProcessor;
 
@@ -119,8 +120,16 @@ public class MainActivity extends AppCompatActivity {
         saveFab.setOnClickListener(v -> saveImage());
 
         batchButton.setOnClickListener(v -> {
+            // Store data in singleton
+            String baseFilename = "merged";
+            if (currentCoordinateFile != null) {
+                baseFilename = currentCoordinateFile.getName()
+                        .replaceFirst("[.][^.]+$", "");
+            }
+            BatchDataHolder.getInstance().setData(layerGroups, baseFilename);
+
+            // Start batch activity
             Intent intent = new Intent(MainActivity.this, BatchActivity.class);
-            // TODO: Pass layer groups data
             startActivity(intent);
         });
 
