@@ -24,4 +24,15 @@
     <string name="no_valid_combinations">No valid layer combinations found</string>
     <string name="batch_results">Results</string>
     <string name="saved_to">Saved to: %1$s</string>
+    <string name="no_layer_groups">No layer groups available</string>
+
+    <!-- Toast Messages -->
+    <string name="cannot_access_file">Cannot access file</string>
+    <string name="no_layers_found">No layers found</string>
+    <string name="loaded_successfully">Loaded successfully</string>
+    <string name="error_loading_file">Error loading file: %1$s</string>
+    <string name="layer_already_selected">Layer already selected</string>
+    <string name="failed_to_merge">Failed to merge layers</string>
+    <string name="saved_image">Saved: %1$s</string>
+    <string name="save_failed">Save failed: %1$s</string>
 </resources>

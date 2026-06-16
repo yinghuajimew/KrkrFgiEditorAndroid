@@ -100,7 +100,7 @@ public class BatchActivity extends AppCompatActivity {
     private void calculateCombinations() {
         if (layerGroups == null || layerGroups.isEmpty()) {
             combinationsText.setText(getString(R.string.total_combinations, 0));
-            groupsInfoText.setText("No layer groups available");
+            groupsInfoText.setText(R.string.no_layer_groups);
             startButton.setEnabled(false);
             return;
         }

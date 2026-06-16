@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">吉里吉里立绘编辑器</string>
+    <string name="layer_group">图层组</string>
+    <string name="available_layers">可用图层</string>
+    <string name="selected_layers">已选图层</string>
+    <string name="long_press_to_remove">长按移除</string>
+    <string name="preview">预览</string>
+    <string name="save">保存</string>
+    <string name="batch_merge">批量合成</string>
+    <string name="batch_merge_coming_soon">批量合成功能即将推出</string>
+    <string name="action_open">打开文件</string>
+    <string name="action_auto_sort">自动排序</string>
+
+    <!-- Batch Activity -->
+    <string name="batch_mode">批量模式</string>
+    <string name="skip_empty_layers">跳过空图层</string>
+    <string name="auto_sort_layers">自动排序（透明度总和）</string>
+    <string name="start_batch">开始批量合成</string>
+    <string name="total_combinations">组合总数：%1$d</string>
+    <string name="processing">处理中 %1$d / %2$d</string>
+    <string name="batch_complete">批量完成！已保存 %1$d 张图片</string>
+    <string name="batch_cancelled">已取消批量处理</string>
+    <string name="no_valid_combinations">未找到有效的图层组合</string>
+    <string name="batch_results">结果</string>
+    <string name="saved_to">已保存到：%1$s</string>
+    <string name="no_layer_groups">无可用图层组</string>
+
+    <!-- Toast Messages -->
+    <string name="cannot_access_file">无法访问文件</string>
+    <string name="no_layers_found">未找到图层</string>
+    <string name="loaded_successfully">加载成功</string>
+    <string name="error_loading_file">加载文件出错：%1$s</string>
+    <string name="layer_already_selected">图层已选择</string>
+    <string name="failed_to_merge">合并图层失败</string>
+    <string name="saved_image">已保存：%1$s</string>
+    <string name="save_failed">保存失败：%1$s</string>
+</resources>

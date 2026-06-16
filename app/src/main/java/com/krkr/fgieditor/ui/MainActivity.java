@@ -199,7 +199,7 @@ public class MainActivity extends AppCompatActivity {
             // Get file path (simplified - in production use proper URI handling)
             String path = uri.getPath();
             if (path == null) {
-                Toast.makeText(this, "Cannot access file", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string.cannot_access_file, Toast.LENGTH_SHORT).show();
                 return;
             }
 
@@ -210,7 +210,7 @@ public class MainActivity extends AppCompatActivity {
             layerGroups = CoordinateFileParser.parseFile(currentCoordinateFile, currentImageDir);
 
             if (layerGroups.isEmpty() || layerGroups.get(0).layers.isEmpty()) {
-                Toast.makeText(this, "No layers found", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string.no_layers_found, Toast.LENGTH_SHORT).show();
                 return;
             }
 
@@ -218,11 +218,11 @@ public class MainActivity extends AppCompatActivity {
             updateGroupSpinner();
             batchButton.setEnabled(true);
 
-            Toast.makeText(this, "Loaded successfully", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.loaded_successfully, Toast.LENGTH_SHORT).show();
 
         } catch (Exception e) {
             e.printStackTrace();
-            Toast.makeText(this, "Error loading file: " + e.getMessage(),
+            Toast.makeText(this, getString(R.string.error_loading_file, e.getMessage()),
                     Toast.LENGTH_LONG).show();
         }
     }
@@ -253,7 +253,7 @@ public class MainActivity extends AppCompatActivity {
         // Check if already selected
         for (Layer selected : selectedLayers) {
             if (selected.layerId == layer.layerId) {
-                Toast.makeText(this, "Layer already selected", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string.layer_already_selected, Toast.LENGTH_SHORT).show();
                 return;
             }
         }
@@ -332,7 +332,7 @@ public class MainActivity extends AppCompatActivity {
         // Merge and save
         Bitmap result = ImageProcessor.mergeLayers(selectedLayers);
         if (result == null) {
-            Toast.makeText(this, "Failed to merge layers", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.failed_to_merge, Toast.LENGTH_SHORT).show();
             return;
         }
 
@@ -347,7 +347,7 @@ public class MainActivity extends AppCompatActivity {
                 result.compress(Bitmap.CompressFormat.PNG, 100, out);
             }
 
-            Toast.makeText(this, "Saved: " + fileName, Toast.LENGTH_LONG).show();
+            Toast.makeText(this, getString(R.string.saved_image, fileName), Toast.LENGTH_LONG).show();
 
             // Notify media scanner
             Intent mediaScanIntent = new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE);
@@ -356,7 +356,7 @@ public class MainActivity extends AppCompatActivity {
 
         } catch (Exception e) {
             e.printStackTrace();
-            Toast.makeText(this, "Save failed: " + e.getMessage(),
+            Toast.makeText(this, getString(R.string.save_failed, e.getMessage()),
                     Toast.LENGTH_LONG).show();
         }
     }
